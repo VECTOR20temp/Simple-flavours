@@ -1,0 +1,1 @@
+This is a simple tool that I made for generating random password for a user. First the program asks the length of password to generate then it generates a string from upper case,lower case,symbol, number by the length of given number
