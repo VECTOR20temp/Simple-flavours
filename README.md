@@ -12,11 +12,16 @@
 <a><li>Authors</li></a>
 <a><li>Acknowledgments</li></a>
  </ul>
-##🧐 About
-<h2>🏁 Getting started</h2>
-<h2>🔧 Running the tests</h2>
-<h2>🎈 Usage</h2>
-<h2>🚀 Deployment</h2>
-<h2>⛏️ Built using</h2>
-<h2>✍️ Authors</h2>
-<h2>🎉 Acknowledgemwnt</h2>
+## 🧐 About
+## 🏁 Getting started
+## 🔧 Running the tests
+## 🎈 Usage
+## 🚀 Deployment</h2>
+## ⛏️ Built using
+
+- C
+- JavaScript
+- HTML / CSS
+
+## ✍️ Authors
+## 🎉 Acknowledgemwnt
