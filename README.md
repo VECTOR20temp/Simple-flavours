@@ -15,6 +15,8 @@
 
 ## 🧐 About
 
+This is a minimal repo just to show off how programming can be helpful even on scenarios that we've never imagined before.
+
 ## 🏁 Getting started
 
 ## 🔧 Running the tests
