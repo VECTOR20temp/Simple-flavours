@@ -12,7 +12,7 @@
 <a><li>Authors</li></a>
 <a><li>Acknowledgments</li></a>
  </ul>
-<h2>🧐 About</h2>
+##🧐 About
 <h2>🏁 Getting started</h2>
 <h2>🔧 Running the tests</h2>
 <h2>🎈 Usage</h2>
