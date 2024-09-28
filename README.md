@@ -12,11 +12,17 @@
 <a><li>Authors</li></a>
 <a><li>Acknowledgments</li></a>
  </ul>
+
 ## 🧐 About
+
 ## 🏁 Getting started
+
 ## 🔧 Running the tests
+
 ## 🎈 Usage
+
 ## 🚀 Deployment</h2>
+
 ## ⛏️ Built using
 
 - C
