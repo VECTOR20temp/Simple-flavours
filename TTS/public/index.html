@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-Speech 💬</title>
+    <link rel="stylesheet" href="../src/style.css" media="all"/>
+</head>
+<body>
+    <div class="main-container">
+        <!-- Top Area: Heading and Introduction -->
+        <div class="top-area">
+            <h1 id="top-area__heading">Text to <mark>Speech</mark> converter</h1>
+            <p id="top-area__paragraph">Welcome to our Text-To-Speech (TTS) converter,
+            a tool designed to turn your written words into lifelike audio. Whether 
+            you listen to an article, create a voiceover, or simply explore different 
+            voices and accents, this converter has you covered. Just type your text, 
+            select your preferred voice, adjust the pitch and speed, and hit the convert 
+            button. It's that simple! Experience the convenience of speech synthesis 
+            technology right at your fingertips.</p>
+        </div>
+
+        <!-- Middle Area: Voice selection, pitch, and text input -->
+        <div class="middle-area">
+            <div class="middle-options">
+                <div class="pitch-rate-opt">
+                    <div class="opt-opt">
+                        <label for="voice-select" style="color:white;">Select voice:</label>
+                            <select class="opt" id="voice-select">
+                                <option value="" disabled selected>Select voice</option>
+                            </select>
+                    </div>
+                    <div class="pitch-rate">
+                        <div style="display:flex;flex-direction:row;">
+                            <label for="pitch-value" style="color:white;">Pitch:</label>
+                            <input id="pitch-value" name="pitch" type="range" min="1" max="2" value="1" step="0.1">
+                            <span id="pitch-display">1</span>
+                        </div>
+                        <div style="display:flex;flex-direction:row;">
+                            <label for="rate-value" style="color:white;">Rate:</label>
+                            <input id="rate-value" name="rate" type="range" min="0.5" max="3" value="1" step="0.1">
+                            <span id="rate-display">1</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <textarea id="text-text-area" placeholder="Type something here..."></textarea>
+        </div>
+
+        <!-- Bottom Area: Convert Button -->
+        <div class="bottom-area">
+            <button id="bottom-area__convert-btn" type="submit">~ Convert text ~</button>
+        </div>
+    </div>
+    
+    <script type="module" src="../src/index.js"></script>
+</body>
+</html>

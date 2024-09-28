@@ -1,0 +1,173 @@
+body{
+    background:radial-gradient(circle, #d8b4ff, #9b5de5, #6a0dad, #000033);
+    color:#b8aaaa;
+    font-family:'Arial', sans-serif;
+    margin:0;
+    padding:0;
+    height:110vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    scroll-behavior:smooth;
+}
+
+.main-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    width:80%;
+    max-width:1200px;
+    height:70%;
+    padding:30px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius:15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+/* Top Area */
+.top-area {
+    width:100%;
+}
+
+#top-area__heading{
+    font-size:3rem;
+    font-weight: bolder;
+    font-style:initial;
+    text-transform:capitalize;
+    text-shadow: 2px 2px 3px #000;
+    text-align:center;
+}
+
+mark{
+    border-radius:5px;
+    color:#fff;
+    background-color:#B7245C;
+    padding:1px;
+}
+
+#top-area__paragraph{
+    font-size:1rem;
+    font-weight:bold;
+    width:90%;
+    text-align:center;
+    margin:5px 50px 10px 50px;
+}
+
+/* Middle Area */
+.middle-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+
+/* Options (Voice & Pitch Buttons) */
+.middle-options {
+    margin:0px 30px 0px 0px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+    gap:10px;
+    margin-bottom:5px;
+    width:100%;
+}
+
+.pitch-rate-opt{
+    display:flex;
+    flex-direction:row;
+}
+
+.pitch-rate{
+    display:flex;
+    flex-direction:column;
+}
+
+.opt-opt{
+    display:flex;
+    flex-direction:row;
+    margin-right:3px;
+}
+
+.opt{
+    padding:5px;
+    font-size: 1rem;
+    border: 2px groove black;
+    border-radius:5px;
+    background-color: #333444;
+    color:yellow;
+    min-width:100px;
+}
+
+#voice-select{
+    margin:0;
+    max-width:130px;
+    width:auto;
+    resize:auto;
+}
+
+#pitch-display{
+    display:flex;
+    flex-direction:row;
+}
+
+#pitch-value{
+    display:flex;
+    flex-direction:row;
+}
+
+#rate-display{
+    display:flex;
+    flex-direction:column;
+}
+
+#rate-value{
+    display:flex;
+    flex-direction:column;
+}
+
+#text-text-area {
+    width:70%;
+    height:150px;
+    border:2px solid #fff;
+    border-radius:5px;
+    padding:10px;
+    background-color:#333;
+    color:#fff;
+    font-size:1.2rem;
+    margin-bottom:10px;
+    resize:none;
+}
+
+/* Bottom Area */
+.bottom-area {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#bottom-area__convert-btn {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width:250px;
+    height:50px;
+    background-color:yellow;
+    border:2px solid black;
+    border-radius:5px;
+    font-size:1.2rem;
+    font-weight:bold;
+    text-align:center;
+    padding:10px;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+
+#bottom-area__convert-btn:hover {
+    background-color:#DBD053;
+    width:260px;
+    height:55px;
+    border:2px solid black;
+}
