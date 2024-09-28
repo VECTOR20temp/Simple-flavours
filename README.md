@@ -28,6 +28,7 @@
 - C
 - JavaScript
 - HTML / CSS
+- Python
 
 ## ✍️ Authors
 ## 🎉 Acknowledgemwnt
